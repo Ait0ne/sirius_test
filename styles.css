@@ -1,0 +1,21 @@
+html{
+    min-height: 100%;
+} 
+
+body, #__next {
+    height: 100vh;
+    margin: 0;
+}
+
+#__next {
+    display:flex;
+    flex-direction: row;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}

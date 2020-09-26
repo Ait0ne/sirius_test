@@ -1,14 +1,13 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout/Layout.component'
+import Schedule from '../components/Schedule/schedule.component';
+import Sidebar from '../components/SideBar/sidebar.component';
+
+
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+  <Layout title="Schedule">
+        <Sidebar/>
+        <Schedule/>
   </Layout>
 )
 
